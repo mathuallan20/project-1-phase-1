@@ -1,0 +1,27 @@
+{
+  "name": "project-1-phase-1",
+  "version": "1.0.0",
+  "description": "coffee shop project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathuallan20/project-1-phase-1.git"
+  },
+  "author": "Allan Mathu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathuallan20/project-1-phase-1/issues"
+  },
+  "homepage": "https://github.com/mathuallan20/project-1-phase-1#readme",
+  "keywords": [
+    "coffee",
+    "application"
+  ],
+  "dependencies": {
+    "json-server": "^0.17.1",
+    "light-server": "^2.9.1"
+  }
+}

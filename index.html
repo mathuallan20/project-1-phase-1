@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>project1</title>
+   
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/bootstrap.css"/>
+  </head>
+  <body>
+    
+    
+    <nav class="navbar bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./src/Images/img/bg.jpg" alt="Logo" width="30px" height="24px" class="d-inline-block align-text-top">
+            COFFEE
+          </a>
+        </div>
+      </nav>
+
+    <div class="card-group">
+        <div class="card">
+          <div class="card-body text-primary bg-dark">
+            <div>
+                <ul class="card-content" id="coffee"> 
+                  <a href="#" class="list-group-item list-group-item-action active text-center">
+                      THESE ARE THE AVAILABLE TYPE OF COFFEE!!
+                    </a>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./src/Images/img/intro.jpg" id="poster" class="card-img-top img-fluid w-lg-100 w-md-100 w-100 text-center" alt="...">
+          
+        </div>
+        <div class="card">
+            <div class="card-body bg-dark">
+                <h5  id="title" class="btn btn-info">[COFFEE TITLE]</h5>
+                <h5 id="Preparation_time" class="btn btn-info">[PREPARATION_TIME] minutes</h5>
+                <div class="content">
+                  <div class="description">
+                    <div id="coffee-info">[INSERT COFFEE DESCRIPTION HERE]</div>
+                    <span id="opening_hours" class="ui label">[OPENING_HOURS]</span>
+                    <span id="available_orders">[X]</span> remaining coffee
+                  </div>
+                </div>
+                <div class="extra content">
+                  <button id="buy-coffee" class="btn btn-info">
+                    Buy coffee
+                  </button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.js"></script>
+
+  </body>
+</html>
